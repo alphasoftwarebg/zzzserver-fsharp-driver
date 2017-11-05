@@ -1,15 +1,13 @@
-# zzzserver-csharp-driver
-C# driver for **ZZZ Base** through ZZZ Server
+# zzzserver-fsharp-driver
+F# driver for **ZZZ Base** through ZZZ Server
 
-***ZZZClient.h*** - the header file with driver functions declarations  
-***ZZZClient.cpp*** - the file with driver functions implementations  
-***main.cpp*** - sample access to **ZZZ Base** through function "zzzclient_zzzprogram"  
+***ZZZClient.fs*** - the file with driver function implementation  
 
 **sample usage:**
-```csharp
+```fsharp
 ZZZProgram(
-	"localhost",								// ZZZ Server host
-	3333,										// ZZZ Server port
+	"localhost",					// ZZZ Server host
+	3333,						// ZZZ Server port
 	"#[cout;Hello World from ZZZServer!]")		// ZZZ Base sample program
 ```
 
